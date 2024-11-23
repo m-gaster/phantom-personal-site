@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Mikhael Gaster"
 # email: 'jami0821@gmail.com'
-description: "Social & Data Science." 
+description: "Social & Data Science" 
 # software developer and designer from Chicago creating useful things for the web."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://m-gaster.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
@@ -102,6 +102,6 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: '/', text: 'Home' }
+  - { url: '/', text: 'Portfolio' }
   - { url: '/about', text: 'About' }
   - { url: '/assets/Resume__Nov_24__1pg.pdf', text: 'CV' }

@@ -13,16 +13,19 @@
           {% endif %}
 
           {% if site.description != '' or site.enable_contact == true %}
-          <p class="text-center">
+          <h4 class="text-center">
             {% if site.description != '' %}
             {{site.description}}
             {% endif %}
 
             {% if site.enable_contact == true %}
+            <!-- <p class="text-center" style="font-size: 10px"> -->
+                <!-- <br> -->
             {% include contact.html %}
             {% include contact-modal.html %}
             {% endif %}
-          </p>
+            <!-- </p> -->
+            </h4>
           {% endif %}
 
           <div class="hero-buttons">
@@ -40,13 +43,16 @@
                 <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
             {% endif %}
 
+            <!-- TODO: make portfolio obvious that it's there so that people don't have to scroll down - some might miss it -->
+            <!-- TODO: add brief "about" blurb in portfolio page -->
+            <!-- TODO: consider adding table of contents to my portfolio page -->
           </div>
 
         </div>
 
       </div>
 
-      <a class="section-jump text-center" href="#portfolio">
+      <a class="section-jump text-center" href="#portfolio"> <!-- TODO: move to a 'portfolio' page? -->
         <i class="fa fa-angle-down fa-3x"></i>
       </a>
 

@@ -99,7 +99,7 @@ button.btn, input.btn {
 .section-jump {
   position: relative;
   top: 0;
-  color: #C8D7E1;
+  color: #027ccd;
   margin: 0 auto;
   display: table;
   @include transition(top .2s ease-in);
@@ -113,6 +113,7 @@ button.btn, input.btn {
 --------------------------------------------------------------*/
 .hero-container {
   margin: 10em 0 9em 0;
+//   margin: 10em 0 0em 0;
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
@@ -135,7 +136,7 @@ button.btn, input.btn {
     width: 100%;
   }
   h1 {
-    font-size: 48px;
+    font-size: 58px;
   }
   p {
     margin: 2em 0 4em 0;
@@ -222,18 +223,18 @@ button.btn, input.btn {
   position: relative;
   margin: 0 auto;
   margin-bottom: 1em;
-  &:after {
-    content: '';
-    position: absolute;
-    top: 1.35em;
-    width: 3em;
-    height: 3px;
-    background-color: #ECEFF1;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
+//   &:after {
+//     content: '';
+//     position: absolute;
+//     top: 1.35em;
+//     width: 3em;
+//     height: 3px;
+//     background-color: #ECEFF1;
+//     left: 50%;
+//     -webkit-transform: translateX(-50%);
+//     -ms-transform: translateX(-50%);
+//     transform: translateX(-50%);
+//   }
 }
 
 .section-subtitle {
@@ -272,15 +273,15 @@ button.btn, input.btn {
     h3.title {
       position: relative;
       margin-bottom: 1.5em;
-      &:after {
-        content: '';
-        position: absolute;
-        top: 1.5em;
-        left: 0;
-        width: 3em;
-        height: 3px;
-        background-color: #ECEFF1;
-      }
+    //   &:after {  // Remove this so that there's no horizontal line through long titles that break lines
+    //     content: '';
+    //     position: absolute;
+    //     top: 1.5em;
+    //     left: 0;
+    //     width: 3em;
+    //     height: 3px;
+    //     background-color: #ECEFF1;
+    //   }
     }
     .excerpt {
       width: 80%;
